@@ -4,7 +4,7 @@
       <div class="container footer-grid">
         <!-- Column 1: Brand Info -->
         <div class="footer-col footer-about">
-          <h4 style="color: var(--color-gold); font-family: var(--font-serif); margin-bottom: 15px;">BioHistoCultural</h4>
+          <h4 style="color: var(--color-gold); font-family: var(--font-serif); margin-bottom: 15px;">Biohistocultural</h4>
           <p style="font-size: 0.9rem; line-height: 1.6; margin-bottom: 20px; color: #cbd5e1;">
             Premier Research and Communications Consultant. Specializing in biography writing, academic research, data collection, and publishing since 2008.
           </p>
@@ -56,7 +56,7 @@
             <li>
               <!-- Mail Icon -->
               <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
-              <a href="mailto:orobiograph@gmail.com">orobiograph@gmail.com</a>
+              <a href="mailto:obiograph@gmail.com">obiograph@gmail.com</a>
             </li>
             <li>
               <!-- Calendar Icon -->
@@ -66,14 +66,14 @@
             <li>
               <!-- Map Pin Icon -->
               <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
-              <span>Research Hub Headquarters,<br>Lagos, Nigeria</span>
+              <span>Research Hub Headquarters,<br>Offa, Kwara State, Nigeria</span>
             </li>
           </ul>
         </div>
       </div>
       
       <div class="container footer-bottom">
-        <p>&copy; ${new Date().getFullYear()} BioHistoCultural Resource Hub. All Rights Reserved.</p>
+        <p>&copy; ${new Date().getFullYear()} Biohistocultural Resource Hub. All Rights Reserved.</p>
         <div class="footer-bottom-links">
           <span>Consultancy & Publishing</span>
         </div>

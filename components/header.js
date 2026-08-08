@@ -5,7 +5,7 @@
         <a href="index.html" class="logo">
           <div class="logo-icon">BH</div>
           <div class="logo-info">
-            <span class="logo-text">BioHistoCultural</span>
+            <span class="logo-text">Biohistocultural</span>
             <span class="logo-subtitle">Resource Hub</span>
           </div>
         </a>
