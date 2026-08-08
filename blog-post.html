@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Article — BioHistoCultural Resource Hub</title>
+  <meta name="description" content="Read full research articles and methodology guides published by BioHistoCultural Resource Hub.">
+  <link rel="stylesheet" href="styles/variables.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/components.css">
+  <link rel="stylesheet" href="styles/pages.css">
+</head>
+<body>
+
+  <!-- Reusable Header Component Container -->
+  <div id="header-root"></div>
+
+  <main class="bg-paper" style="min-height: 70vh;">
+    <article class="blog-post-container">
+      
+      <!-- Back Link -->
+      <div style="margin-bottom: 30px;">
+        <a href="blog.html" style="display: inline-flex; align-items: center; gap: 6px; font-weight: 600; font-size: 0.9rem;">
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg>
+          Back to Blog List
+        </a>
+      </div>
+
+      <!-- Post Header -->
+      <header class="post-header">
+        <span class="post-category" id="post-category">Biography</span>
+        <h1 class="post-title" id="post-title">Loading Article...</h1>
+        <div class="post-meta">
+          <span>Published: <strong id="post-date">-</strong></span>
+          <span>By: <strong id="post-author">-</strong></span>
+        </div>
+      </header>
+
+      <!-- Post Content -->
+      <div class="post-content" id="post-content">
+        <p>Loading the requested article content...</p>
+      </div>
+
+      <!-- Author Box -->
+      <div class="author-card">
+        <div class="author-avatar" id="author-avatar">BH</div>
+        <div>
+          <h5 style="margin: 0; font-size: 0.95rem; font-weight: 600; color: var(--color-navy-dark);">BioHistoCultural Advisory Panel</h5>
+          <p style="margin: 0; font-size: 0.85rem; color: var(--color-text-muted);">
+            Articles written by our senior consultants are reviewed for research validity and citations accuracy prior to release.
+          </p>
+        </div>
+      </div>
+
+      <!-- Footer CTA links -->
+      <div class="post-footer">
+        <span>Liked this article?</span>
+        <a href="contact.html?subject=Inquiry%20regarding%20Blog%20Publications" class="btn btn-primary btn-sm">Consult with the Author</a>
+      </div>
+
+    </article>
+  </main>
+
+  <!-- Reusable Footer Component Container -->
+  <div id="footer-root"></div>
+
+  <!-- Dynamic Post Content Injection Logic -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Articles database registry
+      const posts = {
+        'oral-history': {
+          title: 'The Importance of Oral Sources in Biography Writing',
+          date: 'August 5, 2026',
+          category: 'Biography',
+          author: 'Dr. A. Orobiyi, Ph.D.',
+          content: `
+            <p>In historical reconstruction and biography writing within West Africa, relying solely on written colonial archives often results in a one-dimensional narrative. Oral sources—the spoken memories, community legends, and lineage chants (oriki)—provide the flesh and blood that brings biographical subjects to life.</p>
+            
+            <blockquote>
+              "Oral history is not merely a fallback method; it is a primary, culturally resonant archive that captures the soul of historical actors."
+            </blockquote>
+
+            <h3>1. Methodological Integrity in Interviewing</h3>
+            <p>Conducting biographical interviews requires careful pre-interview research. Researchers must understand local greeting protocols, family relationships, and taboos. Standardizing questions is useful, but the interviewer must remain flexible enough to follow tangential memories that often contain rich anecdotes.</p>
+            
+            <h3>2. Verifying Spoken Testimonies</h3>
+            <p>A common critique of oral history is the vulnerability of human memory. To maintain academic rigor, BioHistoCultural Resource Hub employs a triangulation method: cross-checking oral narratives with multiple independent sources and verifying details against official newspapers, land deeds, and parish logs from the same era.</p>
+          `
+        },
+        'qualitative-coding': {
+          title: 'Deciphering Qualitative Data: Thematic Coding for Beginners',
+          date: 'July 20, 2026',
+          category: 'Data Methodology',
+          author: 'Chinelo Nwachukwu, M.Sc.',
+          content: `
+            <p>Field research often generates hundreds of pages of raw interview transcripts and observation notes. For researchers, organizing this mountain of text can be overwhelming. Thematic coding is the key to unlocking meaningful narratives from unstructured data.</p>
+            
+            <blockquote>
+              "Coding is not just sorting; it is a critical process of translation and interpretation that turns speech into scientific indicators."
+            </blockquote>
+
+            <h3>1. Initial Reading & Familiarization</h3>
+            <p>Before writing down code categories, read through transcripts in their entirety without taking notes. Listen to the tone and note the recurrent feelings expressed by the participants. This first pass ensures that you capture the holistic context.</p>
+            
+            <h3>2. Creating Your First Codebook</h3>
+            <p>Identify recurrent labels or topics. For example, if interviewing subjects about community health, statements regarding clinic locations might be coded as "Geography-Access," while discussions about cost could be labeled "Financial-Barrier." Keep definitions in a separate ledger to remain consistent.</p>
+          `
+        },
+        'archival-research': {
+          title: 'Archival Treasures: Navigating National Registries',
+          date: 'June 14, 2026',
+          category: 'Archives',
+          author: 'David Adebayo, M.A.',
+          content: `
+            <p>Archival research is similar to detective work. In many West African registries, files are not always fully digitized or cataloged electronically. Navigating these treasure vaults requires patience, organization, and a clear tactical strategy.</p>
+            
+            <blockquote>
+              "A successful archivist does not just seek files; they build relationships with institutional gates and master the classification indices."
+            </blockquote>
+
+            <h3>1. Planning Your Visit</h3>
+            <p>Before traveling to national registries, check opening schedules, licensing fees, and photo permissions. Preparing a list of files to search saves critical hours when sorting through manual box indices.</p>
+            
+            <h3>2. Dealing with Fragile Materials</h3>
+            <p>Many files from the mid-20th century are printed on low-grade paper. Take notes using pencils (as ink is banned in archival reading rooms to prevent spills) or secure permission to use flatbed scanner devices. Always photograph document headers containing reference numbers to ensure accurate citations.</p>
+          `
+        }
+      };
+
+      // Retrieve post ID from query string
+      const urlParams = new URLSearchParams(window.location.search);
+      let postId = urlParams.get('id');
+      
+      // Fallback default
+      if (!postId || !posts[postId]) {
+        postId = 'oral-history';
+      }
+
+      const activePost = posts[postId];
+      
+      // Update DOM
+      document.title = activePost.title + " — BioHistoCultural Resource Hub";
+      document.getElementById('post-title').textContent = activePost.title;
+      document.getElementById('post-date').textContent = activePost.date;
+      document.getElementById('post-category').textContent = activePost.category;
+      document.getElementById('post-author').textContent = activePost.author;
+      document.getElementById('post-content').innerHTML = activePost.content;
+
+      // Update initials in avatar
+      const initials = activePost.author.split(' ').map(name => name.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"")).filter(name => name.length > 0).map(name => name[0]).join('').substring(0, 2).toUpperCase();
+      document.getElementById('author-avatar').textContent = initials;
+    });
+  </script>
+
+  <!-- Scripts -->
+  <script src="components/header.js"></script>
+  <script src="components/footer.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

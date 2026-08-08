@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Services — BioHistoCultural Resource Hub</title>
+  <meta name="description" content="Explore our research, biography writing, qualitative and quantitative data collection, business proposal drafting, film editing, and academic publishing services.">
+  <link rel="stylesheet" href="styles/variables.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/components.css">
+  <link rel="stylesheet" href="styles/pages.css">
+</head>
+<body>
+
+  <!-- Reusable Header Component Container -->
+  <div id="header-root"></div>
+
+  <main>
+    <!-- Page Header -->
+    <section class="bg-dark text-center" style="padding: 60px 0;">
+      <div class="container animate-fade">
+        <h1 style="color: var(--color-gold); margin: 0; font-size: 3rem;">Our Core Services</h1>
+        <p style="color: #cbd5e1; margin-top: 10px; margin-bottom: 0; font-size: 1.1rem;">Specialized expertise in research, documentation, and academic communications.</p>
+      </div>
+    </section>
+
+    <!-- Services Grid & Filtering -->
+    <section>
+      <div class="container">
+        <!-- Search and Instruction -->
+        <div style="max-width: 600px; margin: 0 auto 50px; text-align: center;" class="animate-fade">
+          <p style="margin-bottom: 15px;">Looking for something specific? Search our competencies:</p>
+          <div class="form-group" style="position: relative;">
+            <input type="text" id="service-search" class="form-control" placeholder="Search services (e.g. 'Biography', 'Research', 'Proposal', 'Data')..." style="padding-left: 45px; border-radius: var(--radius-full);">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="position: absolute; left: 16px; top: 50%; transform: translateY(-50%); color: var(--color-text-muted);"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+          </div>
+        </div>
+
+        <div class="service-details-grid" id="services-container">
+          
+          <!-- Service 1: Academic & Field Research -->
+          <div class="service-card-expanded animate-up stagger-1">
+            <div>
+              <div class="card-icon">
+                <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+              </div>
+              <h3>Tech/Academic & Field Research</h3>
+              <p>We execute exhaustive literature syntheses, archival sweeps, and structured community surveys. Ideal for academics drafting books or organizations needing cultural context.</p>
+              <ul>
+                <li>Primary archival document retrieval</li>
+                <li>Qualitative cultural surveys and case studies</li>
+                <li>Annotated bibliographies and academic references lists</li>
+              </ul>
+            </div>
+            <a href="contact.html?subject=Enquiry%20regarding%20Academic%20and%20Field%20Research" class="btn btn-primary" style="align-self: flex-start; margin-top: 20px;">Enquire</a>
+          </div>
+
+          <!-- Service 2: Biography Writing -->
+          <div class="service-card-expanded animate-up stagger-2">
+            <div>
+              <div class="card-icon">
+                <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/></svg>
+              </div>
+              <h3>Biography Writing</h3>
+              <p>We write elegant, publication-grade biographies, corporate memoirs, and family trees based on extensive personal interviews and archival validations.</p>
+              <ul>
+                <li>Comprehensive face-to-face oral interviews</li>
+                <li>Chronological genealogical charts</li>
+                <li>Full manuscript editing and chapter drafting</li>
+              </ul>
+            </div>
+            <a href="contact.html?subject=Enquiry%20regarding%20Biography%20Writing" class="btn btn-primary" style="align-self: flex-start; margin-top: 20px;">Enquire</a>
+          </div>
+
+          <!-- Service 3: Data Collection -->
+          <div class="service-card-expanded animate-up stagger-3">
+            <div>
+              <div class="card-icon">
+                <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>
+              </div>
+              <h3>Data Collection</h3>
+              <p>We specialize in structuring questionnaire templates, designing digital surveys, and dispatching local enumerators to collect field indicators with strict methodology guidelines.</p>
+              <ul>
+                <li>Focus group discussion (FGD) setups</li>
+                <li>Custom digital questionnaire creation</li>
+                <li>Field data collection audits</li>
+              </ul>
+            </div>
+            <a href="contact.html?subject=Enquiry%20regarding%20Field%20Data%20Collection" class="btn btn-primary" style="align-self: flex-start; margin-top: 20px;">Enquire</a>
+          </div>
+
+          <!-- Service 4: Data Analysis & Interpretation -->
+          <div class="service-card-expanded animate-up stagger-4">
+            <div>
+              <div class="card-icon">
+                <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M16 8v8m-4-5v5m-4-2v2m-2 4h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+              </div>
+              <h3>Data Analysis & Interpretation</h3>
+              <p>Translating databases and reports into clear graphs, statistical tests, and comprehensive summaries suitable for project reviews or academic journals.</p>
+              <ul>
+                <li>Qualitative thematic content analysis</li>
+                <li>Descriptive and inferential statistical analysis</li>
+                <li>Publication-grade charts and graphics</li>
+              </ul>
+            </div>
+            <a href="contact.html?subject=Enquiry%20regarding%20Data%20Analysis" class="btn btn-primary" style="align-self: flex-start; margin-top: 20px;">Enquire</a>
+          </div>
+
+          <!-- Service 5: Business Proposal Writing -->
+          <div class="service-card-expanded animate-up stagger-1">
+            <div>
+              <div class="card-icon">
+                <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+              </div>
+              <h3>Business Proposal Writing</h3>
+              <p>Authoring compelling project, research, and grant proposals for institutions seeking funding, corporate bids, or NGO project sponsorships.</p>
+              <ul>
+                <li>Grant proposal layouts</li>
+                <li>Corporate research bidding briefs</li>
+                <li>Project feasibility and budgets</li>
+              </ul>
+            </div>
+            <a href="contact.html?subject=Enquiry%20regarding%20Business%20Proposal%20Writing" class="btn btn-primary" style="align-self: flex-start; margin-top: 20px;">Enquire</a>
+          </div>
+
+          <!-- Service 6: Publishing -->
+          <div class="service-card-expanded animate-up stagger-2">
+            <div>
+              <div class="card-icon">
+                <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+              </div>
+              <h3>Publishing & Editorial</h3>
+              <p>Guiding writers through standard ISBN assignments, layout configurations, cover design elements, and print-on-demand setup for self-publishing.</p>
+              <ul>
+                <li>Professional manuscript layout styling</li>
+                <li>ISBN acquisition and metadata registry</li>
+                <li>Print and eBook distribution advice</li>
+              </ul>
+            </div>
+            <a href="contact.html?subject=Enquiry%20regarding%20Publishing%20Services" class="btn btn-primary" style="align-self: flex-start; margin-top: 20px;">Enquire</a>
+          </div>
+
+          <!-- Service 7: Training -->
+          <div class="service-card-expanded animate-up stagger-3">
+            <div>
+              <div class="card-icon">
+                <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v12a2 2 0 01-2 2z"/><path stroke-linecap="round" stroke-linejoin="round" d="M12 11l3 3m0 0l-3 3m3-3H9"/></svg>
+              </div>
+              <h3>Academic Training</h3>
+              <p>Organizing workshops on research methodologies, citation styles, quantitative software (SPSS, R), and historical interviewing techniques.</p>
+              <ul>
+                <li>Individual academic writing mentorship</li>
+                <li>Corporate research methodology webinars</li>
+                <li>Genealogy mapping masterclasses</li>
+              </ul>
+            </div>
+            <a href="contact.html?subject=Enquiry%20regarding%20Training%20Programs" class="btn btn-primary" style="align-self: flex-start; margin-top: 20px;">Enquire</a>
+          </div>
+
+          <!-- Service 8: Film Editing -->
+          <div class="service-card-expanded animate-up stagger-4">
+            <div>
+              <div class="card-icon">
+                <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
+              </div>
+              <h3>Film Editing & Documentary Support</h3>
+              <p>Cutting oral history clips, community interviews, and biological field expeditions into cohesive educational videos or high-impact reports.</p>
+              <ul>
+                <li>Oral video interview assembly</li>
+                <li>Historical documentary narration alignment</li>
+                <li>Subtitle insertion and color correction</li>
+              </ul>
+            </div>
+            <a href="contact.html?subject=Enquiry%20regarding%20Film%20Editing%20and%20Documentaries" class="btn btn-primary" style="align-self: flex-start; margin-top: 20px;">Enquire</a>
+          </div>
+
+          <!-- Service 9: Consultancy -->
+          <div class="service-card-expanded animate-up stagger-1" style="grid-column: span 1;">
+            <div>
+              <div class="card-icon">
+                <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z"/></svg>
+              </div>
+              <h3>Consultancy</h3>
+              <p>Advising research agencies, developers, and local writers on archival sources, historical lineages, and local cultural dynamics.</p>
+              <ul>
+                <li>Linage litigation advisory reviews</li>
+                <li>Archival source location navigation</li>
+                <li>Socio-cultural project surveys</li>
+              </ul>
+            </div>
+            <a href="contact.html?subject=Enquiry%20regarding%20General%20Consultancy" class="btn btn-primary" style="align-self: flex-start; margin-top: 20px;">Enquire</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Reusable Footer Component Container -->
+  <div id="footer-root"></div>
+
+  <!-- Search Filter Logic -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const searchInput = document.getElementById('service-search');
+      const serviceCards = document.querySelectorAll('.service-card-expanded');
+
+      if (searchInput) {
+        searchInput.addEventListener('input', (e) => {
+          const query = e.target.value.toLowerCase();
+          
+          serviceCards.forEach(card => {
+            const heading = card.querySelector('h3').textContent.toLowerCase();
+            const desc = card.querySelector('p').textContent.toLowerCase();
+            const listItems = Array.from(card.querySelectorAll('li')).map(li => li.textContent.toLowerCase()).join(' ');
+            
+            if (heading.includes(query) || desc.includes(query) || listItems.includes(query)) {
+              card.style.display = 'flex';
+            } else {
+              card.style.display = 'none';
+            }
+          });
+        });
+      }
+    });
+  </script>
+
+  <!-- Scripts -->
+  <script src="components/header.js"></script>
+  <script src="components/footer.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
